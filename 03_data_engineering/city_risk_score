@@ -1,0 +1,16 @@
+# City Pollution Risk Score
+
+## Objective
+Identify cities with consistently poor air quality to prioritize air purifier market entry.
+
+## Metrics Created
+- Average AQI per city
+- Number of severe pollution days (AQI ≥ 200)
+- Pollution persistence ratio
+- Normalized pollution risk score (0–100)
+
+## Business Impact
+This score enables leadership to:
+- Rank cities by pollution risk
+- Identify high-priority markets
+- Support data-driven product and marketing strategy
