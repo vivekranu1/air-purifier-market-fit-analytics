@@ -1,0 +1,17 @@
+# Silver City Risk Table
+
+## Description
+This table contains city-level air pollution risk metrics derived from daily AQI data.
+
+## Columns
+- state
+- area (city)
+- avg_aqi
+- total_days
+- severe_days
+- persistence_ratio
+- pollution_risk_score (0–100)
+
+## Usage
+- Input for Power BI dashboards
+- Used to prioritize cities for air purifier market entry
