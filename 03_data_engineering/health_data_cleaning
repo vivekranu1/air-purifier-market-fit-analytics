@@ -1,0 +1,14 @@
+## Data Quality Decisions
+
+- Standardized inconsistent state names (e.g., Uttar → Uttar Pradesh)
+- Merged UT variants into single administrative unit
+- Preserved rows with missing state/district by labeling as UNKNOWN
+- Did not split multi-district rows to avoid data duplication
+- Health analysis performed at STATE level
+
+### Rationale
+
+- State-level aggregation was chosen because disease counts were often reported across multiple districts in a single row.
+- Splitting district-level data was avoided to prevent artificial inflation or duplication of case counts.
+- Missing geographic information was preserved as UNKNOWN to maintain data completeness and transparency.
+- Cleaning focused on analytical usability while retaining raw data integrity for auditability.
